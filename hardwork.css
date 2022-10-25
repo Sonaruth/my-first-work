@@ -1,0 +1,119 @@
+body{
+    /* width: 100px; */
+    background-color:rgb(252, 235, 238); 
+    /* margin: 100px;  */
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    padding-right: 50px;
+    padding-left: 50px;
+}
+
+.logo p{
+    text-shadow: 1px 1px 2px grey;
+    margin-right: 5px;
+    justify-content: right;
+
+}
+
+nav{
+    display: flex;
+    width: 500px;
+}
+
+nav ul li a{
+    
+    text-decoration: none;
+    padding-right: 20px;
+    color: black;
+    padding: 10px;
+    border-radius:10px;
+}
+
+nav ul{
+    display: flex;
+}
+
+nav ul li{
+    list-style-type: none;
+}
+
+.sign{
+    background-color: rgb(226, 69, 166);
+
+}
+
+.first-flex{
+    display: flex;
+}
+
+.left{
+    width: 30%;
+}
+
+.left h2{
+    font-size: 60px;
+}
+.left a{
+    display: block;
+    width: 100px;
+    height: 20px;
+    text-decoration: none;
+    border: 70px;
+    border-radius: 20px;
+    color: white;
+    text-align: center;
+
+}
+.imagediv{
+    width: 70%;
+    margin-left: 50px;
+    margin: 50px;
+    display: flex;
+    justify-content: flex-start;
+}  
+
+
+.span{
+    display: flex;
+    width: 80%;
+    justify-content: space-around;
+    margin-top: 50px;
+}
+
+.section2{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    grid-gap: 20px;
+    margin-top: 20px;
+    padding: 20px;
+    background-color:rgb(182, 164, 164);
+}
+
+.mygrid{
+    background-color:#fff;
+    border-radius: 20px;
+    padding: 20px;
+}
+.mygrid div{
+    display: flex;
+}
+
+.mygrid img{
+    width: 70px;
+}
+
+footer{
+    height: 70px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size:30px;
+}
+
+.first-flex .left h2 .Grow{
+    color: red;
+}
